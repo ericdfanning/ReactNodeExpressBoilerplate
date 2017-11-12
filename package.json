@@ -1,0 +1,25 @@
+{
+  "name": "reactnowebpack",
+  "version": "1.0.0",
+  "description": "React web app with Node/Express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdfanning/ReactNodeExpressBoilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Express"
+  ],
+  "author": "Eric Fanning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericdfanning/ReactNodeExpressBoilerplate/issues"
+  },
+  "homepage": "https://github.com/ericdfanning/ReactNodeExpressBoilerplate#readme"
+}
