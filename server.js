@@ -12,19 +12,17 @@ app.listen(app.get('port'), function() {
 });
 
 
-app.use(bodyParser.json());
-app.use(cors());
+app.use(bodyParser.json()); // allows you to retrieve data from the body of requests made to this server
+app.use(cors()); // sets up the headers to allow cross origin requests
 
-// app.get('/bundle.js', function(req, res) {
-// 	console.log('GOT HERE')
-// })
+app.use(express.static(path.join(__dirname, './client')));
 
-app.get('/bundle.js', browserify('./react-client/index.js', {
+app.get('/bundle.js', browserify('./client/index.js', {
   transform: [ [ require('babelify'), { presets: ['es2015', 'react'] } ] ]
 }));
 
-app.use(express.static(path.join(__dirname, './react-client')));
 
 app.get('/', function(req, res) {
-	console.log('******inside home get request*****')
+	res.status(200)
+	res.end()
 })
