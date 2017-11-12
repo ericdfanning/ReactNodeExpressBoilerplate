@@ -8,7 +8,8 @@ Then click on "Clone or download" and copy the repository link.
 
 Open your terminal window on your computer and navigate to an area where you would like this project saved.
 
-Type ```git clone [the repository url you copied]```. 
+Type ```git clone [the repository url you copied]```. Example on next line.
+
 It should look something like this, ```git clone https://github.com/ericdfanning/ReactNodeExpressBoilerplate.git```. Except instead of 'ericdfanning', it will show the name of your github profile.
 
 Once it is done cloning, type ```cd ReactNodeExpressBoilerplate``` to go into the project folder.
