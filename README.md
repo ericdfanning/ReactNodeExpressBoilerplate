@@ -17,4 +17,6 @@ If using node,type ```npm install``` to install all the dependencies this projec
 
 Then to start the server on your local machine, type ```npm start``` into your terminal window. If it starts without error it should say "now listening on port 8000". 
 
-Now in your web browser, open a new window or tab and navigate to [localhost:8000](localhost:8000) to see your boilerplate React web app displayed!
+Now in your web browser, open a new window or tab and navigate to [localhost:8000] to see your boilerplate React web app displayed!
+
+[localhost:8000]: http://127.0.0.1:8000
