@@ -21,8 +21,8 @@ app.get('/bundle.js', browserify('./client/index.js', {
   transform: [ [ require('babelify'), { presets: ['es2015', 'react'] } ] ]
 }));
 
-
 app.get('/', function(req, res) {
+	// this block will execute every time someone successfully navigates to the homepage. 
 	res.status(200)
 	res.end()
 })
