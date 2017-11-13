@@ -1,6 +1,6 @@
 # React Boilerplate
 
-A quick React boilerplate with a Node and Express server complimented with Webpack.
+A quick React boilerplate with a Node and Express server.
 
 To start using this boilerplate, fork this project. 
 
